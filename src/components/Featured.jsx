@@ -7,9 +7,25 @@ function Featured() {
             <h1 className= "text-5xl font-[Neue_Montreal]">Featured Projects</h1>
         </div>
         <div className="cards px-20">
-            <div className="cardcontainer  mt-20 flex gap-8">
-                <div className=" w-1/2 h-[75vh] bg-red-600 rounded-lg"></div>
-                <div className=" w-1/2 h-[75vh] bg-green-500 rounded-lg"></div>
+            <div className=" mt-20 flex gap-8">
+                <div className=" card-container relative w-1/2 h-[75vh]  rounded-lg">
+                <div className="heading absolute left-full -translate-x-1/2 top-1/2 -translate-y-1/2">
+                  <h1 className=" text-6xl leading-none text-[#CDEA68]">FYDE
+                  {"FYDE".split('').map((item,index)=><span>{}</span>)}
+                  </h1>
+                </div>
+                <div className=" card w-full h-[75vh] bg-[url('https://ochi.design/wp-content/uploads/2023/10/Fyde_Illustration_Crypto_2-663x551.png')] rounded-lg"></div>
+                </div>
+                <div className=" card-container w-1/2 h-[75vh] relative rounded-lg">
+                <div className="heading absolute right-full translate-x-1/2 top-1/2 -translate-y-1/2">
+                  <h1 className=" text-6xl leading-none text-[#CDEA68]">VISE
+                    {"VISE".split('').map((item,index)=><span>{}</span>)}
+                  </h1>
+
+                </div>
+                <div className=" card w-full h-[75vh] bg-[url('https://ochi.design/wp-content/uploads/2022/09/Vise_front2-663x551.jpg')] rounded-lg"></div>
+                </div>
+               
             </div>
         </div>
     </div>

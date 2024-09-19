@@ -16,7 +16,7 @@ function About() {
             <div className =" w-2 h-2 rounded-full bg-zinc-100"></div>
            </button>
           </div>
-          <div className=" w-1/2 h-[70vh] rounded-3xl bg-[#b0c859]"></div>
+          <div className=" w-1/2 h-[70vh] rounded-3xl bg-cover bg-[url('https://ochi.design/wp-content/uploads/2022/05/Homepage-Photo-663x469.jpg')]"></div>
          </div>
     </div>
   )
